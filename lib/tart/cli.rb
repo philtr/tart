@@ -3,11 +3,10 @@ require 'thor'
 module Tart
   class CLI < Thor
     include Thor::Actions
-    default_task :build
+    map '-b' => :bake
 
-    desc "build", "generate ascii art based on text file passed in"
-    def build(filename=nil)
-      say "hi"
+    desc "bake", "generate ascii art based on text file passed in"
+    def bake(filename=nil)
       tart = Tart::Builder.new(filename)
       say tart.process
     end
