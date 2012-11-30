@@ -1,6 +1,6 @@
-# Tart
+# Tart (Terminal art)
 
-TODO: Write a gem description
+Draw pretty pictures in your terminal with ease
 
 ## Installation
 
@@ -18,7 +18,49 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Build an image map like this one:
+
+```
+............KK...KK
+............KWKKKKK
+............KWWKGGGK
+............KKWWGGGGK
+...........KGKWGKKKKKKK
+...........KGGKKKKKKKKKK
+..........KGGKKKWWWWKK
+.........KKKKKWWWKWK
+.........KWWKKWWWKWKKK
+.........KWWKKKWWWWWWWKKKKKKK
+.........KWWWKWWKWWWWWKKRRRRKK
+..........KWWWWKKKWWWKRRKKKKRRK
+...........KKWWWWKKKKRRKRRRRKRRK
+............KKKWWWWKKRKRRRRRRKRK
+...........KKGGKKKKKRKRRRRRRRRKRK
+..........KKGGGGGKGKKRKRRRRRRKRKK
+..........KKGGGGGGKKKRRKRRRRKRRRKK
+.........KKKKGGGGGKWWKRRKKKKRRRRRK
+.KKKKKKKKKKKKKKGGKWWWWKKRRRRKRRKKK
+KKGWWGGWWGKKKKKKKKWWWWKRRRRRRKKKWWK
+KGGWWGGWWKKKKKKKWWKWWKKRRRRRRKWWWK
+KGGWWGGWKGGKKKKKKKKKKGKKKKKKKWWKK
+KKGWWGGKKGKKKKKKKKKGGGKWWWWWWWK
+.KKKKKKKGGKKKKKKKKKGGGKKWWWWKK
+.......KGGKKKKK...KGGKKKKKKKK
+.......KGGKK.......KKK
+........KK
+```
+
+Where K is black, G is green, etc.
+
+Then run
+
+```
+tart -b /path/to/file
+```
+
+And something pretty happens:
+
+![Picture of Mario](http://f.cl.ly/items/320Z460E2j260S0e2u1G/Screen%20Shot%202012-11-30%20at%202.35.13%20PM.png)
 
 ## Contributing
 
