@@ -50,7 +50,8 @@ KKRWWRRKKRKKKKKKKKKRRRKWWWWWWWK
 ........KK
 ```
 
-Where K is black, G is green, etc.
+Where K is black, G is green, etc. All the possible colors can be found
+[here](https://github.com/philtr/tart/blob/master/lib/tart/builder.rb#L29-L49)
 
 Then run
 
