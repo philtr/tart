@@ -55,12 +55,14 @@ Where K is black, G is green, etc.
 Then run
 
 ```
-tart -b /path/to/file
+tart bake examples/mario.tart
 ```
 
 And something pretty happens:
 
-![Picture of Mario](http://f.cl.ly/items/320Z460E2j260S0e2u1G/Screen%20Shot%202012-11-30%20at%202.35.13%20PM.png)
+![Picture of Mario](http://f.cl.ly/items/0T2g2Y3z2k2L0R1m1X3S/Screen%20Shot%202012-11-30%20at%206.02.19%20PM.png)
+
+Check out the examples if you'd like.
 
 ## Contributing
 
